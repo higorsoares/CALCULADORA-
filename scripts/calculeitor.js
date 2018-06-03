@@ -1,1 +1,0 @@
-let calculeitor = new CalcController();
