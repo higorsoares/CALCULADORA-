@@ -11,7 +11,10 @@ class CalcController{
        displayCalcEl.innerHTML = "4567";
        dateEl.innerHTML        = "19/04/1996";
        timeEl.innerHTML        = "04:21:35";
+       //inicialização do elementos que estão na parte do front end 
+
     }
+    // get e set da classe claculadora 
     get displayCalc(){
         return this._displayCalc;
     }
