@@ -10,6 +10,7 @@ class CalcController{
     }
     
     initialize(){
+<<<<<<< HEAD
         this.setDisplayDateTime();
            setInterval(()=>{
            this.setDisplayDateTime();
@@ -36,7 +37,18 @@ class CalcController{
     }
     set displayDate(value){
         return this._dateEl.innerHTML = value;
+=======
+       let displayCalcEl = document.querySelector("#display");
+       let dateEl        = document.querySelector("#data");
+       let timeEl        = document.querySelector("#hora");
+       displayCalcEl.innerHTML = "4567";
+       dateEl.innerHTML        = "19/04/1996";
+       timeEl.innerHTML        = "04:21:35";
+       //inicialização do elementos que estão na parte do front end 
+
+>>>>>>> 689565e071312599be83ae474565ac9ba3b966f9
     }
+    // get e set da classe claculadora 
     get displayCalc(){
         return this._displayCalcEl.innerHTML;
     }
